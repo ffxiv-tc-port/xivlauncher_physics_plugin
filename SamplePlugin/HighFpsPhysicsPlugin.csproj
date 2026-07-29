@@ -2,9 +2,9 @@
 
   <PropertyGroup>
     <Authors>ItsLunaYup</Authors>
-    <Version>8.3.0.0</Version>
-    <Description>Simple plugin that divides the physics' refresh rate, making physics (kinda) work at high fps.</Description>
-    <PackageProjectUrl>https://github.com/ItsLunaYup/xivlauncher_physics_plugin</PackageProjectUrl>
+    <Version>8.3.0.1</Version>
+    <Description>降低物理效果的更新頻率，讓物理效果在高 FPS 下較正常地運作。</Description>
+    <PackageProjectUrl>https://github.com/cycleapple/xivlauncher_physics_plugin</PackageProjectUrl>
 
     <TargetFramework>net9.0-windows</TargetFramework>
     <Platforms>x64</Platforms>
@@ -24,11 +24,6 @@
     <Content Include="..\SamplePlugin\HighFpsPhysicsPlugin.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-
-  <!-- Additional NuGet dependencies if needed -->
-  <ItemGroup>
-    <PackageReference Include="DalamudPackager" Version="13.0.0" />
   </ItemGroup>
 
 </Project>

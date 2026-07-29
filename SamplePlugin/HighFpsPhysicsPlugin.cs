@@ -21,10 +21,10 @@ public sealed class HighFpsPhysicsPlugin : IDalamudPlugin
 
         Service.Commands.AddHandler(CommandName, new CommandInfo(OnCommand)
         {
-            HelpMessage = "Open Configuration Window\n" +
-                          "/physics on - Enable Physics Change\n" +
-                          "/physics off - Disable Physics Change\n" +
-                          "/physics t - Toggle Physics Change"
+            HelpMessage = "開啟設定視窗\n" +
+                          "/physics on - 啟用物理效果修正\n" +
+                          "/physics off - 停用物理效果修正\n" +
+                          "/physics t - 切換物理效果修正"
         });
 
         Service.WindowSystem.AddWindow(new ConfigurationWindow());
