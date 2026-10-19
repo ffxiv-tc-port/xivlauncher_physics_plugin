@@ -14,9 +14,6 @@
     <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
-
-    <!-- Output path for dev testing -->
-    <OutputPath>$(AppData)\XIVLauncher\devPlugins\HighFpsPhysicsPlugin\</OutputPath>
   </PropertyGroup>
 
   <!-- Plugin manifest -->

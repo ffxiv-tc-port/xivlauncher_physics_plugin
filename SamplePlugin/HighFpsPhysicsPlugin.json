@@ -2,7 +2,7 @@
   "Author": "ItsLunaYup",
   "Name": "High FPS Physics Fix",
   "Punchline": "降低動作物理效果的更新頻率，改善高 FPS 下的物理表現。",
-  "RepoUrl": "https://github.com/cycleapple/xivlauncher_physics_plugin",
+  "RepoUrl": "https://github.com/ffxiv-tc-port/xivlauncher_physics_plugin",
   "Description": "讓遊戲每隔數幀才更新一次物理效果，以改善高 FPS 下的物理表現。\n可使用「/physics t」切換，或以 on/off 取代 t。\n較低 FPS 時可能會造成物理效果晃動過度。\n若使用 /physics 開啟或關閉後停用整個插件，需要重新啟動遊戲才能再次啟用。",
   "InternalName": "HighFpsPhysicsPlugin",
   "ApplicableVersion": "any",
