@@ -77,3 +77,4 @@ jobs:
             SamplePlugin/bin/Release/HighFpsPhysicsPlugin/HighFpsPhysicsPlugin.json
           generate_release_notes: true
 # ci: 觸發 Actions 註冊 release workflow(新 repo dispatch-only 首次)
+# workflow re-registration trigger 2026-10-26T19:04:40Z
